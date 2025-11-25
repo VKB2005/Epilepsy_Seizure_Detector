@@ -1,0 +1,18 @@
+# Ignore raw data folders
+chb*/
+processed_data/
+
+# Ignore raw files
+*.edf
+*.npy
+
+# Ignore Python cache and environment
+__pycache__/
+*.pyc
+.env
+venv/
+.vscode/
+
+# Keep the model and requirements!
+!best_model.keras
+!requirements.txt
